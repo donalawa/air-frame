@@ -108,7 +108,7 @@ const SidebarBottomB = () => (
             target="UncontrolledSidebarPopoverFooter"
           >
             <PopoverBody>
-              <FooterText />
+              {/* <FooterText /> */}
             </PopoverBody>
           </UncontrolledPopover>
         </div>

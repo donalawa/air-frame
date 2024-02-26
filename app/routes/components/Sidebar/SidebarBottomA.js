@@ -16,10 +16,10 @@ const SidebarBottomA = () => (
         { /* START Desktop */ }
         <Sidebar.HideSlim>
             <Sidebar.Section className="pb-0">
-                <VersionSelector sidebar dashboard="Airframe" />
+                {/* <VersionSelector sidebar dashboard="Airframe" /> */}
             </Sidebar.Section>
             <Sidebar.Section>
-                <FooterAuth className="text-muted" />
+                {/* <FooterAuth className="text-muted" /> */}
             </Sidebar.Section>
         </Sidebar.HideSlim>
         { /* END Desktop */ }
@@ -47,7 +47,7 @@ const SidebarBottomA = () => (
                 </Button>
                 <UncontrolledPopover placement="left-end" target="UncontrolledSidebarPopoverFooter">
                     <PopoverBody>
-                        <FooterText />
+                        {/* <FooterText /> */}
                     </PopoverBody>
                 </UncontrolledPopover>
             </Sidebar.Section>
